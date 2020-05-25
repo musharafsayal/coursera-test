@@ -9,16 +9,27 @@ body {
     margin-top: 20px;
 }
 
+header {
+    border-right: 2px orange solid;
+    border-left: 2px orange solid;
+    margin: 0 auto;
+    width: 300px;
+}
+
 h1 {
+    color: darkorange;
     text-align: center;
     margin-bottom: 15px;
+    text-decoration:  underline orange;
+    text-decoration-style: wavy ;
 }
 
 
 article {
+    color:black;
     width: 30%;
     margin: 3% 0 0 2%;
-    background-color: gray;
+    background-color:orange;
     border: 3px solid black;
     float: left;
 }
@@ -28,7 +39,7 @@ p.content {
 }
 
 .title {
-    background-color: tomato;
+    background-color: rgb(248, 176, 164);
     text-align: center;
     width:120px;
     float: right;
@@ -36,11 +47,12 @@ p.content {
     border-left: 3px solid black;
     border-bottom: 3px solid black;
     padding: 4px;
+    color: rgb(109, 58, 0);
 }
 
 .t2 {
-    color: white;
-    background-color: red;
+    color:darkred;
+    background-color:lightcoral;
 }
 
 .t3 {
