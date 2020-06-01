@@ -7,16 +7,44 @@
     <title>Boostrap Starter Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/e8038de0c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 col-sm-4">Col 1</div>
-            <div class="col-md-4 col-sm-4">Col 2</div>
-            <div class="col-md-4 col-sm-4">Col 3</div>
+<header>
+  <nav id="header-nav" class="navbar navbar-expand-md">
+    <div class="container">
+        <div class="navbar-brand">
+          <a href="#"><h2>Food, LLC</h2></a>
         </div>
-    </div>
+      <!--button-start-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-bars"></span>
+      </button>
+      <!--button-End-->
+      <!--Menu-Start-->
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link active" href="#"><i class="fas fa-drumstick-bite"></i>Chicken<span class="sr-only">(current)</span></a>
+            <hr class="d-sm-block d-md-none"/>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="#"><i class="fas fa-utensils"></i>Beef<span class="sr-only">(current)</span></a>
+            <hr class="d-sm-block d-md-none"/>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-fish"></i>Sushi<span class="sr-only">(current)</span></a>
+          </li>
+        
+        </ul>
+      </div><!--Menu End-->
+    </div><!--.container-->
+  </nav> <!--#header-nav-->
+  <hr class="separator">
+</header>
 
 
     <script src="js/jquery-3.5.1.min.js"></script>

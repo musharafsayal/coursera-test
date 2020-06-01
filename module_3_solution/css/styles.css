@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(rgb(219, 50, 50), rgb(255, 208, 0));
+}
+#header-nav {
+    background-color: tomato;
+}
+
+hr {
+    background-color: white;
+}
+
+.navbar-brand a {
+    color: white;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+button > span {
+    color: white;
+}
+
+button.navbar-toggler {
+    border: 2px white solid;
+}
+
+button > span:hover, button.navbar-toggler:hover {
+    background-color: white;
+    color: tomato;
+}
+
+.collapse ul li a {
+    font-size: 1.1em;
+    color: white;
+}
+
+
+
+.collapse ul li a i {
+    margin-right: 5px;
+}
+
+hr.separator {
+    position: relative;
+    bottom: 20px;
+    height: 3px;
+}
+
+
+/*For Dekstop and tablet*/
+@media (min-width:769px) {
+
+    .container {
+        position: relative;
+    }
+
+    .container div.collapse {
+        position: absolute;
+        margin-left: 80%;
+    }
+
+
+    .collapse ul li:hover {
+        border-top: 4px solid white;
+        margin-bottom: 2px;
+    }
+
+    .collapse .active {
+        border-top: 2px solid white;
+    }
+
+
+}
+
+/*For Mobiles and extra mobiles*/
+@media (max-width:768px) {
+
+    .collapse {
+        margin-top: 10px;
+    }
+    .collapse ul li a:hover{
+        border: none;
+        background-color: white;
+        color:tomato;
+        border-radius: 5px;
+    }
+
+    .collapse hr {
+        width: 50%;
+    }
+
+    .collapse ul li .active {
+        border: none;
+        background-color: white;
+        color:tomato;
+        border-radius: 5px;
+      
+    }
+}
