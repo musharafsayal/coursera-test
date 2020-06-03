@@ -1,10 +1,8 @@
 html {
-    height:220%;
+    height: 250%;
 }
 body {
-    height: 100%;
     background-image: linear-gradient(rgb(219, 50, 50), rgb(255, 208, 0));
-    background-size: cover;
 }
 
 
@@ -58,10 +56,14 @@ hr.separator {
 /*End Header*/
 
 /*Start Section*/
-#articles {
 
+.container h2 {
+    color: white;
+}
+#articles {
+    margin-top: 20px;
     margin-left:-5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: 2px solid white;
     padding: 10px;
     background-color: rgb(255, 99, 71,0.2);
@@ -105,9 +107,6 @@ hr.separator {
     text-decoration: none;
 }
 
-#Chicken:focus {
-    box-shadow: 2px 2px 2px black;
-}
 
 
 /*End Section*/
